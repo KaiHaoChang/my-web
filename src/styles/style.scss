@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anek Latin','Noto Sans TC', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+
+@import './_socialmedias.scss';
+@import './_footer.scss';
+@import './_homepage.scss';

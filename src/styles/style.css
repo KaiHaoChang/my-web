@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Anek Latin','Noto Sans TC', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+div.social-medias-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.social-medias-container i.social-media {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+div.social-medias-container i.social-media:hover {
+  background: rgba(0, 0, 0, 0.625);
+  border-radius: 50px;
+  color: #c0faff;
+}
+
+div.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+
+div.homepage-container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.homepage-container section.homepage {
+  min-width: 50%;
+  height: 100vh;
+}
+
+div.homepage-container section.section-left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.homepage-container section.section-left div.backgroundImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../photos/background-homepage1.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  -webkit-filter: blur(2.5px);
+          filter: blur(2.5px);
+  z-index: -1;
+}
+
+div.homepage-container section.section-left div.title-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.homepage-container section.section-left div.title-containers div.title-container {
+  padding: 2rem 3rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+div.homepage-container section.section-left div.title-containers div.title-container h1.title1 {
+  text-indent: 2em;
+}
+
+div.homepage-container section.section-left div.title-containers div.title-container h1.title2 {
+  text-indent: 3em;
+}
+
+div.homepage-container section.section-left div.title-containers div.title-container h1.title2 span {
+  color: rgba(255, 251, 0, 0.705);
+  border-bottom: 5px white solid;
+}
+
+div.homepage-container section.section-left div.title-containers div.title-container h1.title3 {
+  text-indent: 4em;
+}
+
+div.homepage-container section.section-left div.avatar-container {
+  padding: 2rem;
+  margin: 1.9rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+div.homepage-container section.section-left div.avatar-container img.avatarHomePage {
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+div.homepage-container section.section-left div.social-medias-container {
+  margin: 2rem 0 5rem 0;
+}
+
+div.homepage-container section.section-left div.social-medias-container a {
+  margin: 0 1rem;
+}
+
+div.homepage-container section.section-left div.social-medias-container a i {
+  font-size: 350%;
+}
+
+div.homepage-container section.section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+div.homepage-container section.section-right div.backgroundImg {
+  background-image: url("../photos/background-homepage2.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+div.homepage-container section.section-right div.motto-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.homepage-container section.section-right div.motto-containers div.motto-container {
+  padding: 2rem 5rem;
+  text-align: center;
+  width: 100%;
+  color: #5982ff;
+  text-shadow: 10px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+div.homepage-container section.section-right div.motto-containers div.motto-container h3.motto-who {
+  text-align: end;
+  color: rgba(2, 93, 29, 0.638);
+}
+
+div.homepage-container section.section-right div.motto-containers div.motto-container h3.motto-who span {
+  font-size: .9rem;
+}
+
+div.homepage-container section.section-right div.motto-containers button.motto-btn {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 30%;
+  color: white;
+  background: rgba(30, 255, 131, 0.481);
+  opacity: 0.8;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.homepage-container section.section-right div.motto-containers button.motto-btn:hover {
+  background: #1eff83;
+  color: black;
+}
+
+div.homepage-container section.section-right div.personalInfos-containers {
+  width: 80%;
+}
+
+div.homepage-container section.section-right div.personalInfos-container {
+  background: rgba(30, 255, 131, 0.481);
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0rem;
+  margin: 1.5rem 0;
+  text-align: start;
+  height: 30%;
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+}
+
+div.homepage-container section.section-right a.tittle-container {
+  width: 20%;
+  background: rgba(32, 3, 255, 0.481);
+  -webkit-transform: skewX(0deg);
+          transform: skewX(0deg);
+}
+
+div.homepage-container section.section-right a.tittle-container:hover {
+  background: rgba(0, 0, 0, 0.856);
+}
+
+div.homepage-container section.section-right div.description-container, div.homepage-container section.section-right a.tittle-container {
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.homepage-container section.section-right div.footer {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1225px) {
+  div.homepage-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.motto-containers {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 741px) {
+  section.homepage.section-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1.title1, h1.title2, h1.title3 {
+    text-align: start;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1.title1,
+  h1.title2,
+  h1.title3 {
+    text-align: start;
+    font-size: 1.3rem;
+  }
+  div.social-medias-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

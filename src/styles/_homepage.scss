@@ -1,0 +1,215 @@
+div.homepage-container {
+  width: 100vw;
+  display: flex;
+
+  section.homepage{
+    min-width: 50%;
+    height: 100vh;
+  }
+
+  section.section-left {
+    position: relative;
+    // background
+    div.backgroundImg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('../photos/background-homepage1.jpg');
+      opacity: 0.9;
+      background-size:cover;
+      filter:blur(2.5px);
+      z-index: -1;
+    }
+
+    display: flex;
+    flex-direction: column;
+    div.title-containers{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div.title-container {
+  
+        padding: 2rem 3rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        color:rgb(255, 255, 255);
+        text-shadow:20px 20px 20px rgba(0,0,0,0.5);
+        h1.title1 {
+          text-indent: 2em;
+        }
+        h1.title2 {
+          text-indent: 3em;
+          span {
+            color:rgba(255, 251, 0, 0.705);
+            border-bottom: 5px white solid;
+          }
+        }
+        h1.title3 {
+          text-indent: 4em;
+        }
+      }
+    }
+
+    div.avatar-container{
+      padding: 2rem;
+      margin: 1.9rem 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      img.avatarHomePage {
+        border-radius: 5px;
+        box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+      }
+    }
+
+    div.social-medias-container {
+      margin: 2rem 0 5rem 0 ;
+      a {
+        margin: 0 1rem;
+        i {
+          font-size: 350%;
+        }
+      }
+    }
+  }
+  // End of section left
+
+  section.section-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    // background
+    div.backgroundImg {
+      background-image: url('../photos/background-homepage2.jpg');
+      background-size: cover;
+      opacity: 0.8;
+      filter:blur(5px);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+
+    div.motto-containers{
+      display: flex;
+      flex-direction: column;
+
+      div.motto-container {
+        padding: 2rem 5rem;
+        text-align: center;
+        width: 100%;
+        color:rgb(89, 130, 255);
+        text-shadow: 10px 5px 3px rgba(0,0,0,0.1);
+        h3.motto-who {
+          text-align: end;
+          color: rgba(2, 93, 29, 0.638);
+          span {
+            font-size: .9rem;
+          }
+        }
+      }
+      button.motto-btn {
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        align-self: center;
+        width: 30%;
+        color:rgb(255, 255, 255);
+        background:rgba(30, 255, 131, 0.481);
+        opacity: 0.8;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+        &:hover {
+          background: rgb(30, 255, 131);
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+    div.personalInfos-containers {
+      width: 80%;
+    }
+
+    div.personalInfos-container {
+      background: rgba(30, 255, 131, 0.481);
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 0rem;
+      margin: 1.5rem 0;
+      text-align: start;
+      height: 30%;
+      transform: skewX(-30deg);
+    }
+    a.tittle-container{
+      width: 20%;
+      background: rgba(32, 3, 255, 0.481);
+      transform: skewX(0deg);
+      &:hover{
+        background: rgba(0, 0, 0, 0.856);
+      }
+    }
+    div.description-container, a.tittle-container{
+      margin: 0 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    div.footer {
+      color:white;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    }
+  }
+}
+
+@media screen and (max-width:1225px) {
+  div.homepage-container {
+    flex-direction: column;
+  }
+
+  div.motto-containers{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:741px) {
+  section.homepage.section-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:700px) {
+  h1.title1, h1.title2, h1.title3  {
+    text-align: start;  
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  h1.title1,
+  h1.title2,
+  h1.title3 {
+    text-align: start;
+    font-size: 1.3rem;
+  }
+
+  div.social-medias-container {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media screen and (max-width:533px) {
+
+}
