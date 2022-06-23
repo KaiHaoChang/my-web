@@ -193,6 +193,7 @@ div.homepage-container section.section-right div.motto-containers {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 2rem;
 }
 
 div.homepage-container section.section-right div.motto-containers div.motto-container {
@@ -214,6 +215,7 @@ div.homepage-container section.section-right div.motto-containers div.motto-cont
 
 div.homepage-container section.section-right div.motto-containers button.motto-btn {
   cursor: pointer;
+  font-size: 1.5rem;
   padding: 10px;
   border-radius: 10px;
   -ms-flex-item-align: center;
@@ -335,6 +337,13 @@ div.homepage-container section.section-right div.footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  div.homepage-container section.section-left, div.homepage-container section.section-right {
+    width: 200vw;
+    height: 150vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

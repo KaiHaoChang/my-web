@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const personalInfos = [
   {
@@ -31,10 +32,10 @@ const renderPersonalInfos = () => {
         const { id, titleCh, titleEg, descriptionCh, descriptionEg } = personalInfo;
         return (
           <div key={id} className='personalInfos-container'>
-            <a href="/" className="tittle-container">
+            <Link to={`/${titleEg.toLowerCase()}`} className="tittle-container">
               <h1 className="title">{titleCh}</h1>
               <p className="title">{titleEg}</p>         
-            </a>
+            </Link>
             <div className="description-container">
               <p className="description">{descriptionCh}</p>
               <p className="description">{descriptionEg}</p>
