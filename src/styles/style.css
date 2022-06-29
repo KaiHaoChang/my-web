@@ -346,4 +346,443 @@ div.homepage-container section.section-right div.footer {
     height: 150vh;
   }
 }
+
+div.nav-container {
+  background: #f0e68c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem;
+  text-align: center;
+  color: #b22222;
+}
+
+div.nav-container .nav-homepage:hover {
+  color: white;
+}
+
+div.nav-container div.nav-classes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.nav-container div.nav-classes .nav-link {
+  margin: 0 2rem;
+}
+
+div.nav-container div.nav-classes .nav-link:hover {
+  color: white;
+}
+
+div.myInfo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3rem;
+  background: #f0f0f0;
+  width: 100%;
+}
+
+div.myInfo-container section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.myInfo-container section div.myImage img {
+  opacity: 0.9;
+}
+
+div.myInfo-container section.section-top, div.myInfo-container section.section-mid, div.myInfo-container section.section-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+div.myInfo-container section.section-top div.myImage, div.myInfo-container section.section-mid div.myImage, div.myInfo-container section.section-bottom div.myImage {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.064);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+div.myInfo-container section.section-top div.myImage img, div.myInfo-container section.section-mid div.myImage img, div.myInfo-container section.section-bottom div.myImage img {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div.myInfo-container section.section-top div.content, div.myInfo-container section.section-mid div.content, div.myInfo-container section.section-bottom div.content {
+  padding: 20px;
+  width: 100%;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.myInfo-container section.section-top div.content p, div.myInfo-container section.section-mid div.content p, div.myInfo-container section.section-bottom div.content p {
+  font-size: 2vw;
+}
+
+div.myInfo-container section.section-top div.content h1, div.myInfo-container section.section-mid div.content h1, div.myInfo-container section.section-bottom div.content h1 {
+  color: #b22222dd;
+}
+
+div.myInfo-container section.section-bottom div.content-container div.social-medias-container {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+div.myInfo-container section.section-bottom div.content-container div.social-medias-container .social-media {
+  font-size: 7vw;
+  color: #0080ff;
+}
+
+div.myInfo-container section.section-bottom div.content-container div.social-medias-container .social-media:hover {
+  background: #ffa200;
+}
+
+@media screen and (max-width: 1450px) {
+  div.myInfo-container section.section-top,
+  div.myInfo-container section.section-mid,
+  div.myInfo-container section.section-bottom {
+    margin-top: 5rem;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  div.myInfo-container section.section-top,
+  div.myInfo-container section.section-mid,
+  div.myInfo-container section.section-bottom {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.myInfo-container section.section-top {
+    margin-top: 0rem;
+  }
+  div.myInfo-container section.section-top,
+  div.myInfo-container section.section-mid,
+  div.myInfo-container section.section-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.myInfo-container section.section-top,
+  div.myInfo-container section.section-mid,
+  div.myInfo-container section.section-bottom {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.myInfo-container section.section-top,
+  div.myInfo-container section.section-mid,
+  div.myInfo-container section.section-bottom {
+    margin-bottom: 1rem;
+  }
+  div.myInfo-container section.section-top div.social-medias-container,
+  div.myInfo-container section.section-mid div.social-medias-container,
+  div.myInfo-container section.section-bottom div.social-medias-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  div.myInfo-container section.section-top div.content h1,
+  div.myInfo-container section.section-mid div.content h1,
+  div.myInfo-container section.section-bottom div.content h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  div.myInfo-container section.section-top div.myImage,
+  div.myInfo-container section.section-mid div.myImage,
+  div.myInfo-container section.section-bottom div.myImage {
+    margin-top: 2rem;
+  }
+  div.myInfo-container section.section-top div.content,
+  div.myInfo-container section.section-mid div.content,
+  div.myInfo-container section.section-bottom div.content {
+    margin-top: 1rem;
+  }
+  div.myInfo-container section.section-top div.content h1,
+  div.myInfo-container section.section-mid div.content h1,
+  div.myInfo-container section.section-bottom div.content h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  div.myInfo-container section.section-top div.content,
+  div.myInfo-container section.section-mid div.content,
+  div.myInfo-container section.section-bottom div.content {
+    margin-top: 5rem;
+  }
+  div.myInfo-container section.section-top div.content h1,
+  div.myInfo-container section.section-mid div.content h1,
+  div.myInfo-container section.section-bottom div.content h1 {
+    font-size: 5vw;
+  }
+}
+
+div.myExperience-container {
+  background: #f0fff0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.myExperience-container hr.horizontal-line {
+  color: #2c2c2c;
+  height: 10px;
+  background: #2c2c2c;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+div.myExperience-container section.section-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+div.myExperience-container section.section-top div.avatar-container {
+  width: 50vw;
+  height: 40vh;
+  position: relative;
+  overflow: hidden;
+}
+
+div.myExperience-container section.section-top div.avatar-container img.avatar {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+div.myExperience-container section.section-top div.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5em;
+}
+
+div.myExperience-container section.section-top div.content-container h1.title {
+  color: #b22222dd;
+}
+
+div.myExperience-container section.section-top div.content-container a {
+  color: #b22222dd;
+}
+
+div.myExperience-container section.section-mid {
+  padding-block: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.myExperience-container section.section-mid h1.title {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  padding: 0 5rem;
+  font-size: 2rem;
+}
+
+div.myExperience-container section.section-mid div.class-types-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.myExperience-container section.section-mid div.class-types-container div.class-types h1.class-type-title {
+  color: #b22222dd;
+  border-bottom: 0.25vh solid black;
+}
+
+div.myExperience-container section.section-bottom {
+  padding-block: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.myExperience-container section.section-bottom h1.title, div.myExperience-container section.section-bottom h2, div.myExperience-container section.section-bottom h1 {
+  color: #b22222dd;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+
+div.myExperience-container section.section-bottom div.experiences-container p, div.myExperience-container section.section-bottom div.experiences-container h2, div.myExperience-container section.section-bottom div.experiences-container h1 {
+  padding: 0 2rem;
+}
+
+div.myExperience-container section.section-bottom div.experiences-container p, div.myExperience-container section.section-bottom div.experiences-container ol {
+  font-size: 2vw;
+}
+
+div.myExperience-container section.section-bottom div.experiences-container ol {
+  padding-left: 5rem;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+div.projects-container {
+  margin-top: 5vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 400px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  grid-gap: 10px;
+}
+
+div.projects-container div.project-container {
+  padding: 1rem;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.464);
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+div.projects-container div.project-container div.project-image {
+  width: 350px;
+  height: 350px;
+}
+
+div.projects-container div.project-container div.project-image img {
+  width: 100%;
+  height: 100%;
+}
+
+div.projects-container div.project-container div.content {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.projects-container div.project-container div.content h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #b22222dd;
+}
+
+div.projects-container div.project-container div.content a {
+  font-size: 32px;
+}
+
+div.projects-container div.project-container div.content a:hover {
+  color: #b22222dd;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+div.nav-container {
+  background: #f0e68c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  text-align: center;
+  color:#b22222;
+
+
+  .nav-homepage{
+    &:hover {
+      color:white;
+    }
+  }
+
+
+  div.nav-classes {
+    display: flex;
+    flex-wrap: wrap;
+    .nav-link {
+      margin: 0 2rem;
+      &:hover {
+        color:white;
+      }
+    }
+  }
+
+}

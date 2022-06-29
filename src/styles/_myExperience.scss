@@ -1,0 +1,112 @@
+div.myExperience-container {
+  background: #f0fff0;
+  display: flex;
+  flex-direction: column;
+
+  hr.horizontal-line {
+    color :rgb(44, 44, 44);
+    height: 10px;
+    background: rgb(44, 44, 44);
+    width: 90%;
+    display: flex;
+    align-self: center;
+  }
+  // 上
+  section.section-top {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin:2rem auto;
+    // padding: 3vh 20px;
+    
+    div.avatar-container {
+      width: 50vw;
+      height: 40vh;
+      position: relative;
+      overflow: hidden;
+      
+
+      img.avatar {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 3px 3px 1px 3px rgba(0,0,0,0.1);
+      }
+    }
+
+    div.content-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.5em;
+      h1.title {
+        color:#b22222dd;
+      }
+      a {
+        color:#b22222dd;
+      }
+    }
+  }
+
+  // 中
+  section.section-mid {
+    padding-block: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1.title {
+      align-self: start;
+      padding: 0 5rem;
+      font-size: 2rem;
+    }
+
+    div.class-types-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      div.class-types {
+        h1.class-type-title {
+          color:#b22222dd;
+          border-bottom: 0.25vh solid black;
+        }
+      }
+    }
+
+  }
+
+  // 下
+  section.section-bottom {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    h1.title,h2,h1 {
+        color:#b22222dd;
+        align-self: start;
+        padding: 0 2rem;
+        font-size: 2rem;
+      }
+    div.experiences-container{
+      p,h2,h1 {
+        padding: 0 2rem;
+      }
+      p,ol {
+        font-size: 2vw;
+      }
+      ol {
+        padding-left: 5rem;
+      }
+    }
+  }
+
+}
